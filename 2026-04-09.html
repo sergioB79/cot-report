@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COT Report — 2026-04-09</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0d0d0d; color:#e8e6e0; font-family:monospace; font-size:13px; line-height:1.7; padding:32px; max-width:900px; margin:0 auto; }
+  a { color:#c8a050; text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  h1 { font-size:22px; font-weight:700; color:#c8a050; margin-bottom:4px; }
+  .timestamp { color:#4a4a4a; font-size:11px; margin-bottom:4px; }
+  .report-date { color:#6b6b6b; font-size:11px; margin-bottom:16px; }
+  .cost-bar { display:flex; align-items:center; gap:12px; background:#141414; border:1px solid #2a2a2a; border-radius:8px; padding:10px 16px; margin-bottom:32px; font-size:12px; }
+  .cost-label { color:#6b6b6b; }
+  .cost-detail { color:#4a4a4a; flex:1; font-size:11px; }
+  .cost-total { color:#c8a050; font-weight:700; font-size:14px; }
+  h2 { font-size:14px; font-weight:600; color:#c8a050; margin:32px 0 12px; letter-spacing:0.05em; text-transform:uppercase; }
+  table { width:100%; border-collapse:collapse; margin-bottom:32px; }
+  th { text-align:left; color:#6b6b6b; font-size:11px; text-transform:uppercase; letter-spacing:0.08em; padding:8px 0; border-bottom:1px solid #2a2a2a; }
+  td { padding:10px 0; border-bottom:1px solid #1a1a1a; vertical-align:middle; }
+  td.asset { font-weight:700; color:#e8e6e0; width:80px; }
+  td.num { text-align:right; width:110px; color:#c0bdb7; }
+  td.pct-cell { width:200px; padding:10px 12px; }
+  .pct-bar-wrap { background:#1a1a1a; border-radius:3px; height:6px; margin-bottom:3px; }
+  .pct-bar { height:6px; border-radius:3px; transition:width 0.3s; }
+  .pct-label { font-size:11px; color:#6b6b6b; }
+  .signal { font-size:11px; font-weight:600; letter-spacing:0.05em; }
+  .analysis { background:#141414; border:1px solid #2a1a05; border-radius:10px; padding:20px 24px; white-space:pre-wrap; }
+  .nav { margin-bottom:24px; font-size:12px; }
+  .nav a { color:#888; }
+  .footer { margin-top:40px; color:#333; font-size:11px; text-align:center; border-top:1px solid #1a1a1a; padding-top:16px; }
+  .legend { display:flex; gap:16px; margin-bottom:16px; font-size:11px; color:#6b6b6b; flex-wrap:wrap; }
+  .legend span { display:flex; align-items:center; gap:4px; }
+  .dot { width:8px; height:8px; border-radius:50%; display:inline-block; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="index.html">← Índice</a></div>
+<h1>COT Report</h1>
+<div class="timestamp">Gerado em 2026-04-09 18:38 UTC+1</div>
+<div class="report-date">Dados CFTC: semana de 2026-03-31</div>
+<div class="cost-bar">
+  <span class="cost-label">Custo</span>
+  <span class="cost-detail">592in / 1061out tokens</span>
+  <span class="cost-total">$0.0177</span>
+</div>
+
+<h2>Posicionamento institucional</h2>
+<div class="legend">
+  <span><span class="dot" style="background:#1D9E75"></span> Extremo long (&gt;90%)</span>
+  <span><span class="dot" style="background:#5DCAA5"></span> Zona long (75-90%)</span>
+  <span><span class="dot" style="background:#888780"></span> Neutro (25-75%)</span>
+  <span><span class="dot" style="background:#F0997B"></span> Zona short (10-25%)</span>
+  <span><span class="dot" style="background:#E24B4A"></span> Extremo short (&lt;10%)</span>
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>Asset</th>
+      <th style="text-align:right">Net</th>
+      <th style="text-align:right">Variação</th>
+      <th style="padding-left:12px">Percentil histórico</th>
+      <th>Sinal</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+          <td class="asset">EURUSD</td>
+          <td class="num">3,947</td>
+          <td class="num" style="color:#1D9E75">+17,485</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:56%;background:#888780"></div>
+            </div>
+            <span class="pct-label">56%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">USDJPY</td>
+          <td class="num">-46,182</td>
+          <td class="num" style="color:#1D9E75">+8,670</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:29%;background:#888780"></div>
+            </div>
+            <span class="pct-label">29%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">GBPUSD</td>
+          <td class="num">29,932</td>
+          <td class="num" style="color:#1D9E75">+14,216</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:55%;background:#888780"></div>
+            </div>
+            <span class="pct-label">55%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">DXY</td>
+          <td class="num">-8,832</td>
+          <td class="num" style="color:#E24B4A">-1,911</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:27%;background:#888780"></div>
+            </div>
+            <span class="pct-label">27%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">SP500</td>
+          <td class="num">-233,412</td>
+          <td class="num" style="color:#1D9E75">+110,715</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:87%;background:#5DCAA5"></div>
+            </div>
+            <span class="pct-label">87%</span>
+          </td>
+          <td><span class="signal" style="color:#5DCAA5">ZONA LONG</span></td>
+        </tr>
+        <tr>
+          <td class="asset">NAS100</td>
+          <td class="num">-37,103</td>
+          <td class="num" style="color:#1D9E75">+2,276</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:35%;background:#888780"></div>
+            </div>
+            <span class="pct-label">35%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">VIX</td>
+          <td class="num">-42,246</td>
+          <td class="num" style="color:#E24B4A">-1,786</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:55%;background:#888780"></div>
+            </div>
+            <span class="pct-label">55%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">XAUUSD</td>
+          <td class="num">93,872</td>
+          <td class="num" style="color:#1D9E75">+1,097</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:31%;background:#888780"></div>
+            </div>
+            <span class="pct-label">31%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr>
+        <tr>
+          <td class="asset">WTI</td>
+          <td class="num">303,872</td>
+          <td class="num" style="color:#1D9E75">+6,430</td>
+          <td class="pct-cell">
+            <div class="pct-bar-wrap">
+              <div class="pct-bar" style="width:39%;background:#888780"></div>
+            </div>
+            <span class="pct-label">39%</span>
+          </td>
+          <td><span class="signal" style="color:#888780">NEUTRO</span></td>
+        </tr></tbody>
+</table>
+
+<h2>Análise COT</h2>
+<div class="analysis"># ANÁLISE COT — 31 MARÇO 2026
+
+---
+
+## 1. DESTAQUES DA SEMANA
+
+**SP500 — Cobertura massiva de shorts** (+110,715 contratos) é o movimento mais relevante da semana. Com percentil em 87%, os institucionais estão a reduzir agressivamente posições short, mas ainda não inverteram para long líquido. Sinal de capitulação bearish, não de convicção bullish.
+
+**GBP e EUR — Acumulação coordenada em USD pairs.** GBPUSD +14,216 e EURUSD +17,485 em simultâneo reforçam pressão vendedora no dólar. O DXY confirma com posição net short e percentil em 27%.
+
+**USDJPY — Redução de shorts** (+8,670) mas percentil ainda baixo (29%). Institucionais continuam net short JPY, com cobertura gradual — sem sinal de reversão estrutural.
+
+---
+
+## 2. EXTREMOS E ZONAS DE ATENÇÃO
+
+| Asset | Percentil | Risco |
+|-------|-----------|-------|
+| **SP500** | 87% | ⚠️ Zona de atenção — cobertura de shorts pode esgotar-se |
+| **DXY** | 27% | 🔄 Potencial suporte contrarian ao USD |
+| **USDJPY** | 29% | 🔄 JPY short ainda relevante mas a aliviar |
+
+**SP500 a 87%** é o alerta crítico: quando a cobertura de shorts se esgotar sem entrada de longs reais, o rally perde combustível. Observar se o percentil rompe 90%.
+
+---
+
+## 3. LEITURA POR ASSET
+
+- **EURUSD** — Net long crescente, percentil neutro (56%). Suporte institucional moderado ao EUR. Sem extremos, tendência de alta sustentável no curto prazo.
+- **USDJPY** — Net short pesado (-46K), cobertura em curso. Viés USD/fraqueza JPY atenua-se. Cuidado com longs USDJPY sem confirmação.
+- **GBPUSD** — Acumulação consistente, percentil 55%. COT favorável à GBP. Dip buying institucional activo.
+- **DXY** — Net short em percentil 27%. Contrarian: risco de bounce técnico no USD se coberturas acelerarem.
+- **SP500** — Cobertura massiva de shorts. Rally actual é short-squeeze, não rotação bullish estrutural. Percentil 87% = cuidado com novos longs aqui.
+- **NAS100** — Percentil 35%, neutro. Sem convicção institucional clara.
+- **VIX** — Net short (percentil 55%). Institucionais apostam em volatilidade baixa — consistente com cobertura no SP500.
+- **XAUUSD** — Net long mas percentil 31%. Ouro em acumulação discreta, sem euforia. Estrutura saudável para continuação.
+- **WTI** — Net long elevado absoluto mas percentil 39%. Posicionamento pesado sem extremo histórico.
+
+---
+
+## 4. CONFLUÊNCIAS
+
+✅ **USD fraco confirmado**: DXY short + EUR/GBP long = confluência clara. COT suporta acção de preço anti-dólar.
+⚠️ **SP500 rally = short squeeze**: Price action bullish mas COT não confirma entrada institucional long — divergência a monitorizar.
+
+---
+
+## 5. ALERTAS PARA A PRÓXIMA SEMANA
+
+1. **SP500**: Se percentil tocar 90%+, preparar para fade do rally ou redução de exposição long
+2. **DXY**: Qualquer leitura de cobertura de shorts = potencial reversão técnica no USD — impacto em EUR/GBP
+3. **XAUUSD**: Acumulação silenciosa — confirmar se percentil sobe; setup de breakout em construção
+4. **USDJPY**: Monitorizar ritmo de cobertura — aceleração pode gerar short squeeze no par</div>
+
+<div class="footer">S. Batalha · COT Report · 2026-04-09</div>
+</body>
+</html>
