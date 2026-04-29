@@ -1,83 +1,83 @@
 {
-  "run_date": "2026-04-22",
-  "report_date": "2026-04-14",
+  "run_date": "2026-04-29",
+  "report_date": "2026-04-21",
   "positioning": {
     "EURUSD": {
       "market": "EURO FX - CHICAGO MERCANTILE EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": 25382.0,
-      "net_change": 24500.0,
-      "percentile": 87.8048780487805,
+      "report_date": "2026-04-21",
+      "net": 20317.0,
+      "net_change": -5065.0,
+      "percentile": 82.37082066869301,
       "net_max": 56107.0,
       "net_min": -145533.0,
       "signal": "ZONA LONG"
     },
     "USDJPY": {
       "market": "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": -54445.0,
-      "net_change": -3335.0,
-      "percentile": 20.73170731707317,
+      "report_date": "2026-04-21",
+      "net": -68497.0,
+      "net_change": -14052.0,
+      "percentile": 9.72644376899696,
       "net_max": 38497.0,
       "net_min": -110635.0,
-      "signal": "ZONA SHORT"
+      "signal": "EXTREMO SHORT"
     },
     "GBPUSD": {
       "market": "BRITISH POUND - CHICAGO MERCANTILE EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": 22331.0,
-      "net_change": -4202.0,
-      "percentile": 38.81278538812785,
+      "report_date": "2026-04-21",
+      "net": 29137.0,
+      "net_change": 6806.0,
+      "percentile": 54.090909090909086,
       "net_max": 83168.0,
       "net_min": -12063.0,
       "signal": "NEUTRO"
     },
     "DXY": {
       "market": "USD INDEX - ICE FUTURES U.S.",
-      "report_date": "2026-04-14",
-      "net": -3095.0,
-      "net_change": 5546.0,
-      "percentile": 46.118721461187214,
+      "report_date": "2026-04-21",
+      "net": -2409.0,
+      "net_change": 686.0,
+      "percentile": 48.63636363636364,
       "net_max": 26733.0,
       "net_min": -24785.0,
       "signal": "NEUTRO"
     },
     "SP500": {
       "market": "E-MINI S&P 500 - CHICAGO MERCANTILE EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": -420356.0,
-      "net_change": -175873.0,
-      "percentile": 21.91780821917808,
+      "report_date": "2026-04-21",
+      "net": -412321.0,
+      "net_change": 8035.0,
+      "percentile": 25.90909090909091,
       "net_max": 73418.0,
       "net_min": -598669.0,
-      "signal": "ZONA SHORT"
+      "signal": "NEUTRO"
     },
     "NAS100": {
       "market": "NASDAQ MINI - CHICAGO MERCANTILE EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": -49667.0,
-      "net_change": -10839.0,
-      "percentile": 10.95890410958904,
+      "report_date": "2026-04-21",
+      "net": -39000.0,
+      "net_change": 10667.0,
+      "percentile": 32.27272727272727,
       "net_max": 17619.0,
       "net_min": -68221.0,
-      "signal": "ZONA SHORT"
+      "signal": "NEUTRO"
     },
     "VIX": {
       "market": "VIX FUTURES - CBOE FUTURES EXCHANGE",
-      "report_date": "2026-04-14",
-      "net": -29822.0,
-      "net_change": 15137.0,
-      "percentile": 70.73170731707317,
+      "report_date": "2026-04-21",
+      "net": -42383.0,
+      "net_change": -12561.0,
+      "percentile": 54.1033434650456,
       "net_max": 10227.0,
       "net_min": -132446.0,
       "signal": "NEUTRO"
     },
     "XAUUSD": {
       "market": "GOLD - COMMODITY EXCHANGE INC.",
-      "report_date": "2026-04-14",
-      "net": 98850.0,
-      "net_change": 6737.0,
-      "percentile": 33.23170731707317,
+      "report_date": "2026-04-21",
+      "net": 95498.0,
+      "net_change": -3352.0,
+      "percentile": 31.914893617021278,
       "net_max": 284972.0,
       "net_min": -41300.0,
       "signal": "NEUTRO"
@@ -93,5 +93,5 @@
       "signal": "NEUTRO"
     }
   },
-  "analysis": "# ANÁLISE COT — 14 ABRIL 2026\n\n---\n\n## 1. DESTAQUES DA SEMANA\n\n**SP500 — Aceleração Short Massiva**\nVariação de -175,873 num único período é o movimento mais agressivo do report. Percentil 22% confirma posicionamento defensivo institucional significativo. Não é rotação — é fuga.\n\n**EURUSD — Aposta Long Concentrada**\n+24,500 de variação eleva o percentil para 88%. Instituições estão a construir posição long em EUR de forma consistente. Próximo do limiar de extremo histórico.\n\n**VIX — Viragem Notável**\n+15,137 de variação no VIX net. Instituições estão a comprar protecção/volatilidade activamente. Confirma o stress observado nos índices.\n\n---\n\n## 2. EXTREMOS E ZONAS DE ATENÇÃO\n\n| Asset | Percentil | Risco |\n|-------|-----------|-------|\n| EURUSD | 88% | **Reversão se quebrar suporte** — crowded long |\n| NAS100 | 11% | **Potencial capitulação ou bounce técnico** |\n| USDJPY | 21% | Short institucional persistente — JPY forte |\n| SP500 | 22% | Acumulação de short — sem sinal de fundo ainda |\n| VIX | 71% | Caminha para zona de extremo — cuidado com spike |\n\n---\n\n## 3. LEITURA POR ASSET\n\n**EURUSD** — Long institucional forte, quase em extremo. Suporta continuação bullish mas com risco crescente de mean reversion se USD recuperar.\n\n**USDJPY** — Short nítido (percentil 21%) e a aprofundar. JPY continua a ser moeda de refúgio preferida. Pressão vendedora persistente no par.\n\n**GBPUSD** — Percentil 39%, variação negativa. Saída de longs. Neutro sem convicção direcional clara.\n\n**DXY** — Net ligeiramente negativo mas com variação positiva +5,546. Possível início de rotação. A monitorizar — pode contrastar com o EURUSD.\n\n**SP500** — Posicionamento short extremo em construção activa. Sem sinais de reversão institucional. Ambiente de risco claramente negativo.\n\n**NAS100** — Percentil 11%, próximo de extremo histórico short. Atenção: em extremos assim, qualquer catalisador positivo pode despoletar short squeeze violento.\n\n**VIX** — Aumento de posição long. Mercado a pagar por protecção. Confirma narrativa risk-off.\n\n**XAUUSD** — Surpreendentemente neutro (percentil 33%) apesar do ambiente de stress. Posição ainda longe de extremo — espaço para continuar a subir sem estar \"cheio\".\n\n**WTI** — Net elevado em valor absoluto mas percentil 39%. Sem sinal direcional forte.\n\n---\n\n## 4. CONFLUÊNCIAS\n\n✅ **SP500 + NAS100 + VIX** — Triângulo perfeito de risk-off institucional. Consistente com sell-off em curso.\n✅ **USDJPY short + VIX long** — Fluxo de refúgio confirmado.\n⚠️ **EURUSD long vs DXY recuperação** — Divergência a observar. Se DXY continuar a subir, EURUSD pode corrigir apesar do posicionamento.\n⚠️ **XAUUSD neutro num ambiente de stress** — Incomum. Ou ouro vai acelerar, ou institucional já realizou lucros.\n\n---\n\n## 5. ALERTAS PARA A PRÓXIMA SEMANA\n\n1. **NAS100** — Percentil 11% cria condições para short squeeze. Qualquer notícia macro positiva = risco de move explosivo contra o posicionamento.\n2. **EURUSD** — Se atingir percentil >90%, sinal de topo de posicionamento. Reduzir exposição long ou apertar stops.\n3. **DXY** — Confirmar se variação positiva desta semana tem continuidade. Seria o primeiro sinal de reversão do fluxo anti-USD.\n4. **VIX** — Aproximação a percentil >75% sugere pico de medo iminente — potencial sinal contrário para índices."
+  "analysis": "# ANÁLISE COT — 21 ABRIL 2026\n\n---\n\n## 1. DESTAQUES DA SEMANA\n\n**USDJPY — Capitulação Short Acelerada**\nNet -68,497 com variação de -14,052 num único período. Percentil 10% = extremo histórico. Os institucionais estão a acumular shorts JPY de forma agressiva — tipicamente precede reversão violenta ou confirma tendência macro forte pró-JPY.\n\n**EURUSD — Erosão do Long**\nQueda de -5,065 na posição net mantendo percentil 82%. Ainda em zona long relevante, mas a distribuição começou. Sinal de alerta para longs EUR.\n\n**VIX — Short Crescente**\nNet -42,383 com queda adicional de -12,561. Institucionais a vender volatilidade activamente — posicionamento típico de expectativa de estabilização/rally em equity.\n\n---\n\n## 2. EXTREMOS E ZONAS DE ATENÇÃO\n\n| Asset | Percentil | Sinal |\n|-------|-----------|-------|\n| **USDJPY** | 10% | ⚠️ Extremo Short — risco de squeeze |\n| **EURUSD** | 82% | ⚠️ Zona Long — vulnerável a reversão |\n| **GBPUSD** | 54% | Neutro — sem edge COT |\n\n**USDJPY** é o risco mais imediato: posições short em extremo histórico criam combustível para short squeeze expressivo se houver catalisador macro (BoJ, risk-off).\n\n---\n\n## 3. LEITURA POR ASSET\n\n- **EURUSD**: Long institucional ainda presente mas em distribuição. Momentum enfraquece. Shortear rallies ganha relevância.\n- **USDJPY**: Short extremo. Contra-tendência para longs JPY com stops definidos. Não perseguir shorts novos.\n- **GBPUSD**: Neutro/sem convicção. Seguir price action puro.\n- **DXY**: Percentil 49%, flat. Dollar sem direcção institucional clara.\n- **SP500/NAS100**: Shorts reduzidos (+8K / +10K) — cobertura gradual. Não é reversão, é menos bearish. Rally técnico possível mas sem convicção ainda.\n- **VIX**: Short crescente = expectativa de compressão de vol. Confirma posicionamento equity.\n- **XAUUSD**: Net long mas percentil 32% — sem excesso. Ouro suportado sem risco imediato de reversão por posicionamento.\n- **WTI**: Percentil 39%, neutro. Sem edge direccional.\n\n---\n\n## 4. CONFLUÊNCIAS\n\n- **USDJPY**: Se preço estiver em tendência de queda (JPY a valorizar), COT confirma. Se estiver a subir, é divergência perigosa — potencial reversão iminente.\n- **EURUSD**: COT ainda long mas distribuindo. Se preço romper suportes chave, COT deixa de dar suporte — queda pode acelerar.\n- **Equities + VIX**: Cobertura de shorts em SP500/NAS + short VIX = confluência pró-rally curto prazo. Monitorizar como trade táctico.\n\n---\n\n## 5. ALERTAS PARA A PRÓXIMA SEMANA\n\n1. **USDJPY** — Qualquer spike acima de resistência = sinal de short squeeze. Preparar long JPY com gestão apertada.\n2. **EURUSD** — Confirmar se distribuição acelera. Quebra de suporte técnico com novo relatório bearish = trade válido.\n3. **SP500** — Cobertura continua? Segunda semana consecutiva reduziria shorts para percentil mais elevado — viés táctico muda para neutro/long.\n4. **VIX** — Posição short extrema no VIX é risco tail: evento macro inesperado pode causar squeeze de vol devastador."
 }
